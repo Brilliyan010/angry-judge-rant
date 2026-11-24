@@ -8,7 +8,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const RANT =
-  "The bus driver saw me. I know he saw me — we made eye contact, I waved, I did the little run — and he closed the doors anyway, like I was a rumour he didn't believe in. I stood there out of breath, watching my own bus leave without me. It was on time for once. Just not for me.";
+  "The bus driver saw me. I know he saw me — we made eye contact, I waved, I did the little run — and he closed the doors anyway, like I was a rumour he didn't believe in. I stood there out of breath, watching my own bus leave without me. The one day it was on time, it was on time without me.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", RANT, "utf8");
